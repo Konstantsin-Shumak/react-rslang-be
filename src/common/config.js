@@ -6,7 +6,7 @@ dotenv.config({
 });
 
 module.exports = {
-  PORT: 9999,
+  PORT: process.env.PORT,
   NODE_ENV: process.env.NODE_ENV,
   MONGO_CONNECTION_STRING:
     'mongodb+srv://react-english-learn:react-english-learn@cluster0.qjbpy0x.mongodb.net/',
